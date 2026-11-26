@@ -1,0 +1,46 @@
+body{
+    font-size: 50px;
+    background-color: black;
+    
+}
+div{
+    background-color: lightskyblue;
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    position: fixed;
+    
+   
+   
+    
+}
+#pics,#balloons{
+    height: 35vh;
+}
+#pics{
+  background-color: teal;
+  
+
+}
+#message{
+    background-color: gray;
+    height: 40vh;
+    margin-top: 60vh;
+    margin-left: 0vw;
+    font-size: 30px;
+    text-align: center;
+}
+#balloons{
+    background-color:lightseagreen;
+    width: 60vw;
+    font-size: 70px;
+    color: blue;
+}
+button img{
+    height: 25vh;
+}
+button{
+  height: 35vh; 
+}

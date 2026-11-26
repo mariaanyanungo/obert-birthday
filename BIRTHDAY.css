@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    
+}
+.main{
+    display: flex;
+    background-color: blue;
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.pic, .message, #enter{
+     padding: 2vh;
+     border-radius: 10%;
+     width: 40vw;
+     display: flex;
+}
+#enter{
+    background-color: red;
+    height: 10vh;
+}
+#enter:hover{
+    background-color: brown;
+
+}
+
+.message{
+    background-color: blueviolet;
+    height: 30vh;
+}
+.pic{
+    background-color: green;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    
+
+}
+.pic img{
+    height: 30vh;
+    width: 20vw;
+    border-radius: 10%;
+}
+p{
+   font-size: larger;  
+}
+.baloon{
+    animation: fall 3s;
+}
+@keyframes fall{
+    
+}
